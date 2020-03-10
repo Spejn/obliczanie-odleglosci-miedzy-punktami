@@ -28,8 +28,11 @@ void obliczanie()
 
 void main()
 {
-	pobieranie();
-	obliczanie();
-	cout << endl << "odleglosc miedzy punktami to: " << fw;
+	while (fw >= 0)
+	{
+		pobieranie();
+		obliczanie();
+		cout << endl << "odleglosc miedzy punktami to: " << fw << endl << endl;
+	}
 		_getch();
 }
